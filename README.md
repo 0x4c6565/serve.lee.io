@@ -1,5 +1,7 @@
 # serve.lee.io
 
+Simple HTTP server to serve files/directories
+
 ## Usage
 
 * Default (port `8080`, current directory):
