@@ -16,6 +16,7 @@ func main() {
 	fs := http.FileServer(http.Dir(*directory))
 	http.Handle("/", fs)
 
+	fmt.Printf("Serving directory %s on port %d\n", *directory, *port)
 	err := http.ListenAndServe(fmt.Sprintf(":%d", *port), nil)
 	if err != nil {
 		log.Fatal(err)
