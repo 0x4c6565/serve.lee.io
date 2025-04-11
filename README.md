@@ -1,6 +1,6 @@
 # serve.lee.io
 
-Simple HTTP server to serve files/directories
+Simple HTTP server for serving files/directories
 
 ## Usage
 
